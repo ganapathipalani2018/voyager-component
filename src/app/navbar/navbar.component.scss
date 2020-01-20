@@ -1,0 +1,39 @@
+.icon-bar {
+    height: 100%;
+    width: 55px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #323232;
+    overflow-x: hidden;
+    padding-top: 10px;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    filter: invert(0.8);
+    font-size: 5px;
+  }
+  
+  .icon-top{
+    flex: 1;
+  }
+  
+  .icon-bottom{
+    flex: 2;
+  }
+  
+  .icon-bar a:hover {
+    background-color: gray;
+  }
+  
+  .icon-bar a:focus {
+    background-color: #b4b4b4;
+  }
+  

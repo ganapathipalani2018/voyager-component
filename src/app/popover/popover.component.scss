@@ -1,0 +1,61 @@
+.leftsidePopover {
+    height: 100%;
+    width: 55px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #323232;
+    overflow-x: hidden;
+    padding-top: 10px;
+    a{
+        padding: 10px 20px;
+        background-color: gray;
+        &:hover, &:active {
+            background-color: gray;
+        }
+        &:focus {
+            background-color: #b4b4b4;
+		}
+    }
+  } 
+  
+.popover {
+	height: 35px;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 9px;
+    left: 0;
+    background-color: #ccc;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    padding-top: 20px;
+    left: 55px;
+	a {
+		padding: 0 8px;
+		text-decoration: none;
+		font-size: 18px;
+		color: #818181;
+		display: block;
+        transition: 0.3s;
+        background-color: transparent;
+        text-align: left;
+		&:hover, &:active, &:focus {
+            color: #323232;
+            background-color: transparent;
+		}
+	}
+
+
+	.closebtn {
+		position: absolute;
+		top: 0;
+        right: 0px;
+        font-size: 25px;
+        margin-left: 0;
+	}
+}
